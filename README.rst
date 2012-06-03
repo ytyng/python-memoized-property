@@ -10,8 +10,11 @@ property デコレータの代わりに使う。
 
 slots が定義されているとうまくいかないかもしれない。
 
-class Hoge(object):
+
+.. code-block:: python
+
+  class Hoge(object):
     
-    @memoized_property
-    def calc(self):
-        some cord....
+      @memoized_property
+      def calc(self):
+          some cord....
