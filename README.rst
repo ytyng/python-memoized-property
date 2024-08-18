@@ -1,3 +1,9 @@
+This repository is deprecated.
+==============================
+
+You use functools.cached_property.
+
+
 python-memoized-property
 ========================
 
